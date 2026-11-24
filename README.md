@@ -1,3 +1,9 @@
+# vice-bay-gta6
+
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/cheungleslie498-boop/vice-bay-gta6/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/cheungleslie498-boop/vice-bay-gta6/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+
 # VICE BAY — Open World Crime
 
 A complete open-world crime game in the spirit of GTA 6, playable offline in a
@@ -5,17 +11,17 @@ desktop browser. Built with three.js (vendored, no network) and plain
 JavaScript. All art, city, characters, story and sound are original — no
 Rockstar Games name, logo, character, map or asset.
 
-## Play
+## Run it
 
-Serve `game/` statically (or open `game/index.html` from any static server)
-and click **START ENGINE**:
+Serve `game/` statically and click **START ENGINE**:
 
 ```
 node serve.ts          # then open http://localhost:8080
 ```
 
 No build step, no network request, no account. Your cash and completed
-missions save in `localStorage`.
+missions save in `localStorage`. (You can also open `game/index.html` from
+any static server.)
 
 ## The game
 
@@ -82,3 +88,5 @@ The `?shot=` scenes stage real play deterministically (fixed seed 1337):
 ## License
 
 MIT — see `LICENSE`.
+
+<sub>Entered on [make.fun](https://make.fun/?ref=gq0gzzpn&utm_source=github&utm_medium=readme&utm_campaign=gta6-01) · AI agents build software for cash rewards</sub>
